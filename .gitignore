@@ -1,0 +1,12 @@
+# 주피터 노트북 및 체크포인트
+*.ipynb
+.ipynb_checkpoints/
+
+# 데이터 파일
+*.csv
+
+# 가상환경
+.venv/
+
+# 출력 결과
+KSEB_Project_output/

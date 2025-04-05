@@ -14,7 +14,7 @@ options.add_argument("--headless")
 options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=options)
 
-df = pd.read_csv("C:\Users\sj123\KSEB_Project\KSEB_Project_output\inha_restaurant_FE.csv", encoding="utf-8-sig")
+df = pd.read_csv("C:/Users/sj123/KSEB_Project/KSEB_Project_output/inha_restaurant_FE.csv", encoding="utf-8-sig")
 store_names = df["상호명"].tolist()
 results = []
 

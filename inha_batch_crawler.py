@@ -6,7 +6,7 @@ import time
 import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from crawling_utils import crawling_get_menus  # 크롤링 함수 import
+from inha_crawling_util import crawling_get_menus  # 크롤링 함수 import
 
 # 크롬 headless 설정
 options = Options()
